@@ -148,13 +148,6 @@ NXP.WhatsIncluded = function WhatsIncluded() {
     'Community management durante el live y la cola post-activación',
     'Moderación humana del chat durante streams largos',
     'Operación live-ops 24/7 durante toda la campaña',
-    'Dashboard en vivo con métricas reales (no impresiones infladas)',
-    'Reporting semanal + readout final con benchmarks por sector',
-    'UGC compilation entregado en assets reutilizables',
-    'Drops de continuidad post-campaña (temporadas, twists, eventos)',
-    'Sesión de transferencia interna con tu equipo de marketing',
-    'Plazo de entrega: 4 — 6 semanas',
-    'Desde €60K',
   ];
   return (
     <section className="nx-section nx-section--dark">
