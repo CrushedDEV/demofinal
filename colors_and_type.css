@@ -1,0 +1,201 @@
+/* =====================================================================
+   NEXIFY — Colors & Type
+   Foundation tokens for the Nexify brand: a creative-tech studio that
+   turns marketing into playable experiences.
+   ===================================================================== */
+
+/* ---------- Fonts ---------- */
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-VariableFont.ttf") format("truetype-variations");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter-Italic-VariableFont.ttf") format("truetype-variations");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url("fonts/Poppins-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* ---------- Brand color ---------- */
+  --nx-yellow:        #F5B921;   /* PRIMARY — the arcade signal */
+  --nx-yellow-bright: #FFC72C;   /* hover / hot state          */
+  --nx-yellow-deep:   #D99B07;   /* press / shadow side        */
+  --nx-yellow-soft:   #FCE9A8;   /* tints, washes              */
+
+  --nx-black:         #0A0A0A;   /* PRIMARY surface — pure-ish */
+  --nx-ink:           #1A1A1A;   /* cards on black             */
+  --nx-graphite:      #2A2A2A;   /* dividers, low-contrast UI  */
+  --nx-smoke:         #5A5A5A;   /* muted ink                  */
+
+  --nx-paper:         #FAFAF7;   /* off-white surface          */
+  --nx-bone:          #F2F1EC;   /* card on paper              */
+  --nx-white:         #FFFFFF;
+
+  /* ---------- Semantic — foreground ---------- */
+  --fg-strong:        var(--nx-black);
+  --fg-default:       #181818;
+  --fg-muted:         #5A5A5A;
+  --fg-subtle:        #8A8A8A;
+  --fg-on-yellow:     var(--nx-black);
+  --fg-on-dark:       var(--nx-white);
+  --fg-on-dark-muted: #B4B4B4;
+
+  /* ---------- Semantic — background ---------- */
+  --bg-page:          var(--nx-paper);
+  --bg-surface:       var(--nx-white);
+  --bg-elevated:      var(--nx-bone);
+  --bg-dark:          var(--nx-black);
+  --bg-dark-elevated: var(--nx-ink);
+  --bg-accent:        var(--nx-yellow);
+
+  /* ---------- Semantic — borders ---------- */
+  --border-ink:       var(--nx-black);          /* signature 1.5px black hairline */
+  --border-default:   rgba(10, 10, 10, 0.12);
+  --border-soft:      rgba(10, 10, 10, 0.06);
+  --border-on-dark:   rgba(255, 255, 255, 0.14);
+
+  /* ---------- Functional ---------- */
+  --success:          #2BB673;
+  --warning:          var(--nx-yellow);
+  --danger:           #E5484D;
+  --info:             #3B82F6;
+
+  /* ---------- Typefaces ---------- */
+  --font-display:     "Poppins", "Inter", system-ui, -apple-system, sans-serif;
+  --font-body:        "Inter", "Poppins", system-ui, -apple-system, sans-serif;
+  --font-mono:        ui-monospace, "JetBrains Mono", "SF Mono", Menlo, monospace;
+
+  /* ---------- Type scale (desktop) ---------- */
+  --fs-display-xl:    clamp(72px, 9vw, 144px);  /* hero, marquee     */
+  --fs-display:       clamp(56px, 7vw, 104px);  /* page-level H1     */
+  --fs-h1:            clamp(40px, 4.4vw, 64px);
+  --fs-h2:            clamp(32px, 3.4vw, 48px);
+  --fs-h3:            clamp(24px, 2.4vw, 32px);
+  --fs-h4:            20px;
+  --fs-body-lg:       18px;
+  --fs-body:          16px;
+  --fs-small:         14px;
+  --fs-xs:            12px;
+  --fs-overline:      11px;
+
+  /* ---------- Spacing scale (4px grid) ---------- */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  24px;
+  --space-6:  32px;
+  --space-7:  48px;
+  --space-8:  64px;
+  --space-9:  96px;
+  --space-10: 128px;
+
+  /* ---------- Radii ---------- */
+  --radius-xs:   4px;
+  --radius-sm:   8px;
+  --radius-md:   12px;
+  --radius-lg:   20px;
+  --radius-xl:   28px;
+  --radius-pill: 999px;          /* SIGNATURE — capsule chips     */
+  --radius-card: 14px;           /* business-card style           */
+
+  /* ---------- Shadows / elevation ---------- */
+  --shadow-1: 0 1px 2px rgba(10,10,10,0.06), 0 1px 1px rgba(10,10,10,0.04);
+  --shadow-2: 0 4px 10px rgba(10,10,10,0.06), 0 2px 4px rgba(10,10,10,0.04);
+  --shadow-3: 0 16px 32px rgba(10,10,10,0.08), 0 4px 10px rgba(10,10,10,0.04);
+  --shadow-yellow: 0 12px 28px rgba(245,185,33,0.35);
+  --shadow-ink:    8px 8px 0 var(--nx-black);   /* hard offset for arcade play */
+
+  /* ---------- Motion ---------- */
+  --ease-out:  cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in:   cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-arc:  cubic-bezier(0.34, 1.56, 0.64, 1);   /* slight overshoot */
+  --dur-fast:  120ms;
+  --dur:       220ms;
+  --dur-slow:  420ms;
+
+  /* ---------- Layout ---------- */
+  --max-content: 1280px;
+  --gutter:      max(24px, 5vw);
+  --stroke:      1.5px;            /* signature ink hairline       */
+}
+
+/* =====================================================================
+   Element styles — drop in to get sensible Nexify defaults
+   ===================================================================== */
+
+html { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+body {
+  font-family: var(--font-body);
+  font-size: var(--fs-body);
+  line-height: 1.5;
+  color: var(--fg-default);
+  background: var(--bg-page);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 900;
+  color: var(--fg-strong);
+  letter-spacing: -0.02em;
+  line-height: 1.02;
+  text-wrap: balance;
+  margin: 0;
+}
+h1 { font-size: var(--fs-display); letter-spacing: -0.035em; }
+h2 { font-size: var(--fs-h1);      letter-spacing: -0.03em;  }
+h3 { font-size: var(--fs-h2); }
+h4 { font-size: var(--fs-h3); }
+h5 { font-size: var(--fs-h4); font-weight: 700; letter-spacing: -0.01em; }
+h6 { font-size: var(--fs-small); font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; }
+
+p { margin: 0; text-wrap: pretty; }
+p.lead { font-size: var(--fs-body-lg); color: var(--fg-default); line-height: 1.45; }
+small, .small { font-size: var(--fs-small); color: var(--fg-muted); }
+.overline {
+  font-family: var(--font-body);
+  font-size: var(--fs-overline);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--fg-muted);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1.5px solid currentColor;
+  transition: color var(--dur) var(--ease-out);
+}
+a:hover { color: var(--nx-yellow-deep); }
+
+code, kbd, samp, pre { font-family: var(--font-mono); font-size: 0.92em; }
+code { background: var(--bg-elevated); padding: 0.1em 0.4em; border-radius: var(--radius-xs); }
+
+::selection { background: var(--nx-yellow); color: var(--nx-black); }

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1754 420.85">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .8em;
+      }
+
+      .cls-2 {
+        letter-spacing: .8em;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        letter-spacing: .8em;
+      }
+
+      .cls-6 {
+        letter-spacing: .8em;
+      }
+
+      .cls-4 {
+        font-family: AcuminConcept-ExtraCondSemibold, 'Acumin Variable Concept';
+        font-size: 137.8px;
+        font-variation-settings: 'wght' 600, 'wdth' 50, 'slnt' 0;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-3" d="M0,420.85V151.43h134.71c24.11,48.99,48.22,98.35,65.83,136.24h2.68c-1.91-22.58-2.29-65.06-2.29-109.84v-26.41h104.1v269.42h-128.59c-18.75-37.89-55.87-121.7-73.1-158.44h-2.29c3.06,26.79,3.44,57.79,3.44,119.79v38.65H0Z"/>
+    <path class="cls-3" d="M606.61,320.97h-136.62v27.55h153.85l-13.78,72.33h-254.12V151.43h257.56v72.71h-143.51v24.11h136.62v72.71Z"/>
+    <path class="cls-3" d="M831.65,420.85l-34.44-63.53h-.76l-34.06,63.53h-126.68l93.38-136.62-88.02-132.8h133.95l29.47,58.94h.76l30.62-58.94h125.91l-93.38,128.97,98.35,140.45h-135.09Z"/>
+    <path class="cls-3" d="M1105.3,151.43v269.42h-117.88V151.43h117.88Z"/>
+    <path class="cls-3" d="M1156.21,151.43h248.47v72.71h-132.51v35.59h123.58v72.71h-123.58v88.4h-115.96V151.43Z"/>
+    <path class="cls-3" d="M1527.82,420.85v-90.32c0-5.36-1.15-7.65-4.59-13.01l-103.33-166.09h136.24c14.93,34.06,23.73,60.85,36.74,93.76,11.1-31,20.29-54.73,36.36-93.76h124.76l-105.25,168c-1.53,2.68-3.06,6.51-3.06,13.02v88.4h-117.87Z"/>
+  </g>
+  <text class="cls-4" transform="translate(353.47 117.27) scale(1.29 1)"><tspan class="cls-5" x="0" y="0">S</tspan><tspan class="cls-2" x="156.54" y="0">TU</tspan><tspan class="cls-1" x="472.25" y="0">D</tspan><tspan class="cls-6" x="635.54" y="0">IO</tspan></text>
+</svg>
